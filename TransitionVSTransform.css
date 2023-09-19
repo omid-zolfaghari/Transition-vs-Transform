@@ -1,0 +1,500 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.body{
+    background-color: rgb(146, 150, 150);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.parent{
+background-color: rgb(146, 150, 150);
+width: 90vw;
+height: 500px;
+margin-top: 5rem;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.child{
+    background-color: azure;
+    width: 15%;
+    height: 200px;
+    margin: 1rem;
+    position: relative;
+}
+
+.none{
+    background-color: rgb(92, 87, 87);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+
+.one{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+}
+
+.one:hover{
+    transform: rotate(45deg)
+}
+
+.two{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+}
+
+.two:hover{
+    transform: rotateX(50deg);
+}
+
+.three{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;   
+}
+
+.three:hover{
+    transform: rotateY(50deg);
+}
+
+.four{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+}
+
+.four:hover{
+    transform: scale(2);
+}
+
+.five{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+}
+
+.five:hover{
+ transform: scaleX(2);
+}
+
+.six{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+}
+
+.six:hover{
+    transform: scaleY(2);
+}
+
+.seven{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+}
+
+.seven:hover{
+    transform: skewX(40deg);
+}
+
+.eight{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+}
+
+.eight:hover{
+    transform: skewY(40deg);
+}
+
+.nine{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+}
+
+.nine:hover{
+    transform: translate(40px,10px);
+}
+
+.ten{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;   
+}
+
+.ten:hover{
+    transform: translate(60px);
+}
+
+.parent2{
+    background-color: rgb(146, 150, 150);
+width: 30vw;
+height: 500px;
+margin-top: 5rem;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.child2{
+    background-color: azure;
+    width: 42%;
+    height: 200px;
+    margin: 1rem;
+    position: relative;
+}
+
+.none2{
+    background-color: rgb(92, 87, 87);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+
+.eleven{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+}
+
+.eleven:hover{
+    transform: translateY(50px);
+}
+
+.twelve{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+    transform-origin: left;
+}
+
+.twelve:hover{
+    transform: scale(1.5) skewY(40deg) translateY(-70px);
+}
+
+.thirteen{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+    transform-origin: center;
+}
+
+.thirteen:hover{
+    transform: perspective(600px)  rotateX(60deg) scale3d(1.2, 1.2, 1.2);
+}
+
+.fourteen{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+    transform-origin: center;
+}
+
+.fourteen:hover{
+    transform: perspective(600px) rotateY(60deg) scale3d(1.2, 1.2, 1.2);
+}
+
+.fifteen{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+    transform-origin: top right;
+}
+
+.fifteen:hover{
+    transform: rotate(45deg);
+}
+
+.sixteen{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+    transform-origin: bottom left;
+}
+
+.sixteen:hover{
+    transform: rotate(45deg);
+}
+
+.seventeen{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+    transform-origin: bottom;
+}
+
+.seventeen:hover{
+    transform: perspective(400px)  rotateX(40deg);
+}
+
+.eighteen{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+    transform-origin: top;
+}
+
+.eighteen:hover{
+    transform: perspective(500px) rotateX(60deg);
+}
+
+.ninteen{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+    transform-origin: left;
+}
+
+.ninteen:hover{
+    transform: perspective(500px) rotateY(40deg);
+}
+
+.twenty{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+    transform-origin: right;
+}
+
+.twenty:hover{
+    transform: perspective(500px) rotateY(55deg);
+}
+
+.twenty-one{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+    transform-origin: top right;
+}
+
+.twenty-one:hover{
+    transform: scale(1.5);
+}
+
+.twenty-two{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+    transform-origin:bottom left;
+}
+
+.twenty-two:hover{
+    transform: scale(1.5);
+}
+
+.twenty-three{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+    transform-origin:right;
+}
+
+.twenty-three:hover{
+    transform: translate(-140px);
+}
+
+.twenty-four{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+    transform-origin:left;
+}
+
+.twenty-four:hover{
+    transform: translate(140px);
+}
+
+.parent3{
+    background-color: rgb(146, 150, 150);
+width: 30vw;
+height: 250px;
+margin-top: 5rem;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.child3{
+    background-color: azure;
+    width: 42%;
+    height: 200px;
+    margin: 1rem;
+    position: relative;
+}
+
+.none3{
+    background-color: rgb(92, 87, 87);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+.twenty-five{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+    transform-origin: top;
+}
+
+.twenty-five:hover{
+    transform: translateY(140px);
+}
+
+.twenty-six{
+    background-color: rgba(253, 4, 120, 0.7);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    z-index: 1;
+    transition-duration: 1s;
+    transform-origin:bottom;
+}
+
+.twenty-six:hover{
+    transform: translateY(-140px);
+}
